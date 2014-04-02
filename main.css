@@ -1,0 +1,208 @@
+/*-------------compatable text----------------------*/
+@font-face {
+ font-family: MyCustomFont;
+ src: url("DS-DIGI.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("DS-DIGI.TTF") /* TTF file for CSS3 browsers */
+}
+body{
+	background-color: #333333;
+}
+.control_box{
+	width: 330px;
+	height: 150px;
+	background-color: #444444;
+	margin: 100px auto;
+	border-radius: 3px;
+	border-style: outset;
+	border-width: 2px;
+	border-color: #666666;
+	-moz-box-shadow:    inset 0 0 3px #333333;
+    -webkit-box-shadow: inset 0 0 3px #333333;
+    box-shadow:         inset 0 0 3px #333333;
+}
+
+.display{
+	width: 190px;
+	height: 60px;
+	background-color: #222222;
+	border-radius: 3px;
+	border-style: inset;
+	border-width: 2px;
+	border-color: #666666;
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	-moz-box-shadow:    inset 0 0 7px #000000;
+    -webkit-box-shadow: inset 0 0 7px #000000;
+    box-shadow:         inset 0 0 7px #000000;
+    font-family: MyCustomFont;
+    font-size: 2.5em;
+    color: black;
+    padding: 0px;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+.unit{
+	font-size: .5em;
+}
+.clock_off{
+	position: absolute;
+	right: 46%;
+}
+.buttons{
+	width: 60px;
+	height: 60px;
+	background-color: #444444;
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+.btn{
+	width: 100%;
+	height: 18px;
+	margin-bottom: 20px;
+}
+.arrow{
+	width: 33%;
+	float: left;
+	height: 100%;
+	border-radius: 5px;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #666666;
+}
+.arrow_graphic{
+	width: 60%;
+	display: block;
+	margin: 2px auto;
+}
+.power{
+	width: 72%;
+	border-radius: 5px;
+	border-style: groove;
+	border-width: 5px;
+	border-color: #666666;
+	color: lightgray;
+	font-size: 0.5em;
+	text-align: right;
+	padding-right: 10px;
+}
+.power_light{
+	width: 8px;
+	height: 8px;
+	background-color: lightgray;
+	display: block;
+	margin-left: 8px;
+	float: left;
+	border-radius: 50px;
+}
+.time_unit{
+	width: 25%;	
+	float: left;
+	clear: both;
+	color: lightgray;
+	font-size: 0.5em;
+	margin-left: 25px;
+}
+.gear{
+	width: 40%;
+	height: 20px;
+	margin: 10px 5px 0px 5px;
+	background-color: #444444;
+	display: inline-block;
+	border-radius: 25px;
+	border-style: inset;
+	border-width: 1px;
+	border-color: #666666;
+	-moz-box-shadow:    inset 0 0 7px #000000;
+    -webkit-box-shadow: inset 0 0 7px #000000;
+    box-shadow:         inset 0 0 7px #000000;
+}
+.switching_dial{
+	width: 15px;
+	height: 15px;
+	background-color: lightgray;
+	border-radius: 25px;
+	margin-top: 2px;
+	float: left;
+}
+.slider{
+	width: 55%;
+	float: left;
+	margin-left: 15px;
+}
+.scale{
+	color: gray;
+	font-size: 10px;
+	letter-spacing: 2px;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+.bar{
+	height: 6px;
+	background-color: #444444;
+	margin-top: 15px;
+	border-radius: 25px;
+	border-style: inset;
+	border-width: 1px;
+	border-color: #666666;
+	-moz-box-shadow:    inset 0 0 7px #000000;
+    -webkit-box-shadow: inset 0 0 7px #000000;
+    box-shadow:         inset 0 0 7px #000000;
+}
+
+/*----------------------clock on styles-------------------------------*/
+
+.clock_on{
+	position: absolute;
+	right: 46%;
+	color: #99ffee;
+	text-shadow: 0px 2px 2px #99ffee;
+	display: none;
+}
+.clock{
+	float: left;
+	width: 18%;
+	margin-left: 15px;
+	margin-top: 12px;
+	display: none;
+}
+.glow{
+  background-color: #99ffee;
+  -moz-box-shadow:    0px 0px 1px 1px #99ffee;
+  -webkit-box-shadow: 0px 0px 1px 1px #99ffee;
+  box-shadow:         0px 0px 1px 1px #99ffee;
+}
+
+/*----------------------slider-------------------------*/
+.ui-slider .ui-slider-handle{
+    width:15px; 
+    height:15px; 
+    position:absolute;
+    border-style:none;
+    border-radius: 25px;
+    background-color: lightgray; 
+}
+.ui-slider {
+    background: #444444;
+}
+
+.ui-widget-header{
+	background-image:none;
+	background-color:#333333;
+}
+.slider_on{
+	background-image:none;
+	background-color:#99ffee;
+}
+/*------------------toggle units-----------------------*/
+.hidden{
+	opacity: 0;
+}
+
+

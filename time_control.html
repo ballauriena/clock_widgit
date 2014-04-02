@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+
+
+		<div class="control_box">
+
+			<div class="display">
+				<img class="clock" src="Clock_simple.svg"><span class="clock_off">8888<span class="unit">MIN</span></span>
+				<span class="clock_on"><span class="on_time">0</span><span class="unit">MIN</span></span>
+			</div>
+
+
+			<div class="buttons">
+				<div class="btn">
+					<div class="btn arrow up">
+						<img class="arrow_graphic" src="up.svg">
+					</div>
+					<div class="btn arrow down">
+						<img class="arrow_graphic" src="down.svg">
+					</div>
+				</div>
+				<div class="btn power">
+					<div class="power_light"></div>PWR
+				</div>
+			</div>
+
+
+			<div class="time_unit">
+				MIN<div class="gear"><div class="switching_dial minutes"></div><div class="switching_dial hours hidden"></div></div>HRS
+			</div>
+
+
+			<div class="slider">
+				<div class="bar">
+				</div>
+				<div class="scale">
+					|'''|'''|'''|'''|'''|'''|'''|'''|'''|'''|
+				</div>
+			</div>
+
+
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+  		<script src="time_control.js"></script>
+	</body>
+</html>
